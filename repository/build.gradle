@@ -5,6 +5,11 @@ android {
     compileSdkVersion 26
     buildToolsVersion "26.0.1"
 
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+        test.java.srcDirs += "src/test/kotlin"
+        androidTest.java.srcDirs += "src/androidTest/kotlin"
+    }
 
     defaultConfig {
         minSdkVersion 15
@@ -19,10 +24,6 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-        debug {
-            debuggable true
-            minifyEnabled false
         }
     }
 }
