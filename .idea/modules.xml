@@ -4,10 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CleanLogin.iml" filepath="$PROJECT_DIR$/CleanLogin.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/signup/cadastro.iml" filepath="$PROJECT_DIR$/signup/cadastro.iml" />
       <module fileurl="file://$PROJECT_DIR$/login/login.iml" filepath="$PROJECT_DIR$/login/login.iml" />
       <module fileurl="file://$PROJECT_DIR$/repository/repository.iml" filepath="$PROJECT_DIR$/repository/repository.iml" />
       <module fileurl="file://$PROJECT_DIR$/shared/shared.iml" filepath="$PROJECT_DIR$/shared/shared.iml" />
-      <module fileurl="file://$PROJECT_DIR$/signup/cadastro.iml" filepath="$PROJECT_DIR$/signup/cadastro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/signup/signup.iml" filepath="$PROJECT_DIR$/signup/signup.iml" />
     </modules>
   </component>
 </project>

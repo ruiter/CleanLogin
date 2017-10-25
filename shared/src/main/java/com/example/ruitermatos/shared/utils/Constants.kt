@@ -5,7 +5,5 @@ package com.example.ruitermatos.shared.utils
  */
 
 object Constants {
-    const val NOME = "nome"
-    const val EMAIL = "email"
-    const val SENHA = "senha"
+    const val SIGNUP = "ok"
 }
