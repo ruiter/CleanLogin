@@ -3,6 +3,7 @@ package com.example.ruitermatos.cleanlogin
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.ruitermatos.cadastro.presentation.ActivityCadastro
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -11,7 +12,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        button.setOnClickListener({
-        })
+        button.setOnClickListener{
+            startActivity(Intent(this, ActivityCadastro::class.java))
+        }
     }
 }
