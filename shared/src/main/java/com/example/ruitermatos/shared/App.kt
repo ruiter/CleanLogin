@@ -19,9 +19,10 @@ class App : Application() {
     fun initDependencies() {
         appComponent = DaggerAppComponent.builder()
                 .build()
-
-        appComponent?.inject(this)
-
         Log.i("checkin", "appComponent:  " + appComponent)
+    }
+
+    fun getComponent() : AppComponent? {
+        return appComponent
     }
 }

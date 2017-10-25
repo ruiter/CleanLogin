@@ -1,1 +1,1 @@
-include ':app', ':login', ':cadastro', ':shared'
+include ':app', ':login', ':signup', ':shared'
